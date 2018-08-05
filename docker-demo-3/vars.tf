@@ -31,7 +31,13 @@ variable "AMIS" {
 variable "INSTANCE_DEVICE_NAME" {
   default = "/dev/xvdh"
 }
+
 variable "JENKINS_VERSION" {
-  default = "2.73.2"
+  default = "2.60.3"
 }
+
+variable "TERRAFORM_VERSION" {
+  default = "0.11.7"
+}
+
 
